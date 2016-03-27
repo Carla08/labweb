@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>Users Log In</h2>
+<p>Username:</p>
+<input value="username" type="text" id="username"/>
+<p>Password:</p>
+<input type="password" id="password"/>
+<input type="submit" value="Log In" onclick="LogIn()" />
+<script>
+    function LogIn() {
+        alert("Log In called");
+        var username = $("#username").val();
+        var password = $("#password").val();
+        var url = 'LogIn?' + 'username=' + username + '&password=' + password;
+        window.open(url, "_self");
+   }
+</script>

@@ -1,0 +1,201 @@
+﻿<error errorId="e83fb583-85ed-41b8-a88c-f55ad05c3aea" host="CARLOS-PC" type="System.Web.HttpCompileException" message="C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml(14): error CS0103: The name 'username' does not exist in the current context" source="System.Web" detail="System.Web.HttpCompileException (0x80004005): C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml(14): error CS0103: The name 'username' does not exist in the current context&#xD;&#xA;   at System.Web.Compilation.AssemblyBuilder.Compile()&#xD;&#xA;   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()&#xD;&#xA;   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)&#xD;&#xA;   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)&#xD;&#xA;   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)&#xD;&#xA;   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__15(IAsyncResult asyncResult, Controller controller)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="Carlos-PC\Carlos" time="2016-03-27T22:15:37.3396735Z" statusCode="500" webHostHtmlMessage="&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA;    &lt;head&gt;&#xD;&#xA;        &lt;title&gt;Compilation Error&lt;/title&gt;&#xD;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;&#xD;&#xA;        &lt;style&gt;&#xD;&#xA;         body {font-family:&quot;Verdana&quot;;font-weight:normal;font-size: .7em;color:black;} &#xD;&#xA;         p {font-family:&quot;Verdana&quot;;font-weight:normal;color:black;margin-top: -5px}&#xD;&#xA;         b {font-family:&quot;Verdana&quot;;font-weight:bold;color:black;margin-top: -5px}&#xD;&#xA;         H1 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:18pt;color:red }&#xD;&#xA;         H2 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:14pt;color:maroon }&#xD;&#xA;         pre {font-family:&quot;Consolas&quot;,&quot;Lucida Console&quot;,Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}&#xD;&#xA;         .marker {font-weight: bold; color: black;text-decoration: none;}&#xD;&#xA;         .version {color: gray;}&#xD;&#xA;         .error {margin-bottom: 10px;}&#xD;&#xA;         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }&#xD;&#xA;         @media screen and (max-width: 639px) {&#xD;&#xA;          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }&#xD;&#xA;         }&#xD;&#xA;         @media screen and (max-width: 479px) {&#xD;&#xA;          pre { width: 280px; }&#xD;&#xA;         }&#xD;&#xA;        &lt;/style&gt;&#xD;&#xA;    &lt;/head&gt;&#xD;&#xA;&#xD;&#xA;    &lt;body bgcolor=&quot;white&quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;span&gt;&lt;H1&gt;Server Error in '/' Application.&lt;hr width=100% size=1 color=silver&gt;&lt;/H1&gt;&#xD;&#xA;&#xD;&#xA;            &lt;h2&gt; &lt;i&gt;Compilation Error&lt;/i&gt; &lt;/h2&gt;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;            &lt;font face=&quot;Arial, Helvetica, Geneva, SunSans-Regular, sans-serif &quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Description: &lt;/b&gt;An error occurred during the compilation of a resource required to service this request. Please review the following specific error details and modify your source code appropriately.&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Compiler Error Message: &lt;/b&gt;CS0103: The name &amp;#39;username&amp;#39; does not exist in the current context&lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;b&gt;Source Error:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&#xD;&#xA;            &lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&lt;td&gt;&#xD;&#xA;                              &lt;/td&gt;&lt;/tr&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;Line 12:         var password = $(&amp;quot;#password&amp;quot;).val();&#xD;&#xA;Line 13:         $.ajax({&#xD;&#xA;&lt;font color=red&gt;Line 14:             url: &amp;#39;@Url.Action(&amp;quot;LogIn&amp;quot;,&amp;quot;UsersLogIn&amp;quot;, new { user = username, pw = password})&amp;#39;&#xD;&#xA;&lt;/font&gt;Line 15:         });&#xD;&#xA;Line 16:    }&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt;Source File:&lt;/b&gt; C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml&#xD;&#xA;            &amp;nbsp;&amp;nbsp; &lt;b&gt;Line:&lt;/b&gt;  14&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;br&gt;&lt;div class=&quot;expandable&quot; onclick=&quot;OnToggleTOCLevel1('compilerOutputDiv')&quot;&gt;Show Detailed Compiler Output:&lt;/div&gt;&#xD;&#xA;&lt;div id=&quot;compilerOutputDiv&quot; style=&quot;display: none;&quot;&gt;&#xD;&#xA;            &lt;br&gt;&lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;C:\Program Files\IIS Express&amp;gt;C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\bin\roslyn\csc.exe /t:library /utf8output /nostdlib+ /R:&amp;quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\c002eabf\0074dc85_6a73d101\System.Web.Optimization.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\72a5e3ac\00c10c3c_c080d101\Elmah.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\0a1050c5\ccc0a4f8_7588d101\SimpleWebApplication.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\8bf8d342\dd04d737_7188d101\System.Web.Http.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\bcdfc56d\00c10c3c_c080d101\Elmah.Mvc.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\022b66e6\00d2ac38_6b73d101\EntityFramework.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\d8d9be8e\00ce3e88_6a73d101\Antlr3.Runtime.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\5ea075ea\0063f992_6a73d101\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\bfecd907\00a10d87_6a73d101\Microsoft.Web.Infrastructure.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\2d69db97\00a10d87_6a73d101\System.Web.WebPages.Razor.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\3d2b7535\00af348e_6a73d101\Newtonsoft.Json.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\8ffaa270\00d2ac38_6b73d101\EntityFramework.SqlServer.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\8d97ccbc\0074dc85_6a73d101\System.Web.Helpers.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\15bc5d71\52371836_7188d101\System.Net.Http.Formatting.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\App_global.asax.3nkragif.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\74bb3373\51c0fe38_7188d101\System.Web.Http.WebHost.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\0250d219\0074dc85_6a73d101\System.Web.WebPages.Deployment.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\17d005cf\00fb6f89_6a73d101\WebGrease.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\30d4d18e\00ce3e88_6a73d101\System.Web.Mvc.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\1b768501\0074dc85_6a73d101\System.Web.Razor.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll&amp;quot; /R:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\assembly\dl3\455a2fde\00a10d87_6a73d101\System.Web.WebPages.dll&amp;quot; /out:&amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\App_Web_index.cshtml.ced49762.37fimk_x.dll&amp;quot; /D:DEBUG /debug+ /optimize- /warnaserror- /w:4 /nowarn:1659;1699;1701;612;618 /langversion:6 /nowarn:1659;1699;1701  &amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\App_Web_index.cshtml.ced49762.37fimk_x.0.cs&amp;quot; &amp;quot;C:\Users\Carlos\AppData\Local\Temp\Temporary ASP.NET Files\vs\a1b33ede\24ba894c\App_Web_index.cshtml.ced49762.37fimk_x.1.cs&amp;quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Microsoft (R) Visual C# Compiler version 1.0.0.50618&#xD;&#xA;Copyright (C) Microsoft Corporation. All rights reserved.&#xD;&#xA;&#xD;&#xA;C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml(14,66): error CS0103: The name &amp;#39;username&amp;#39; does not exist in the current context&#xD;&#xA;C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml(14,81): error CS0103: The name &amp;#39;password&amp;#39; does not exist in the current context&#xD;&#xA;&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;br&gt;&lt;div class=&quot;expandable&quot; onclick=&quot;OnToggleTOCLevel1('dynamicCodeDiv')&quot;&gt;Show Complete Compilation Source:&lt;/div&gt;&#xD;&#xA;&lt;div id=&quot;dynamicCodeDiv&quot; style=&quot;display: none;&quot;&gt;&#xD;&#xA;            &lt;br&gt;&lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;Line 1:    #pragma checksum &amp;quot;C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml&amp;quot; &amp;quot;{ff1816ec-aa5e-4d10-87f7-6f4963833460}&amp;quot; &amp;quot;0638CB3C1E22D7609414393A1B3508D4023C2128&amp;quot;&#xD;Line 2:    //------------------------------------------------------------------------------&#xD;Line 3:    // &amp;lt;auto-generated&amp;gt;&#xD;Line 4:    //     This code was generated by a tool.&#xD;Line 5:    //     Runtime Version:4.0.30319.42000&#xD;Line 6:    //&#xD;Line 7:    //     Changes to this file may cause incorrect behavior and will be lost if&#xD;Line 8:    //     the code is regenerated.&#xD;Line 9:    // &amp;lt;/auto-generated&amp;gt;&#xD;Line 10:   //------------------------------------------------------------------------------&#xD;Line 11:   &#xD;Line 12:   namespace ASP {&#xD;Line 13:       using System;&#xD;Line 14:       using System.Collections.Generic;&#xD;Line 15:       using System.IO;&#xD;Line 16:       using System.Linq;&#xD;Line 17:       using System.Net;&#xD;Line 18:       using System.Web;&#xD;Line 19:       using System.Web.Helpers;&#xD;Line 20:       using System.Web.Security;&#xD;Line 21:       using System.Web.UI;&#xD;Line 22:       using System.Web.WebPages;&#xD;Line 23:       using System.Web.Mvc;&#xD;Line 24:       using System.Web.Mvc.Ajax;&#xD;Line 25:       using System.Web.Mvc.Html;&#xD;Line 26:       using System.Web.Optimization;&#xD;Line 27:       using System.Web.Routing;&#xD;Line 28:       using SimpleWebApplication;&#xD;Line 29:       &#xD;Line 30:       &#xD;Line 31:       public class _Page_Views_UsersLogIn_Index_cshtml : System.Web.Mvc.WebViewPage&amp;lt;dynamic&amp;gt; {&#xD;Line 32:           &#xD;Line 33:   #line hidden&#xD;Line 34:           &#xD;Line 35:           public _Page_Views_UsersLogIn_Index_cshtml() {&#xD;Line 36:           }&#xD;Line 37:           &#xD;Line 38:           protected ASP.global_asax ApplicationInstance {&#xD;Line 39:               get {&#xD;Line 40:                   return ((ASP.global_asax)(Context.ApplicationInstance));&#xD;Line 41:               }&#xD;Line 42:           }&#xD;Line 43:           &#xD;Line 44:           public override void Execute() {&#xD;Line 45:               &#xD;Line 46:               #line 1 &amp;quot;C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml&amp;quot;&#xD;Line 47:     &#xD;Line 48:       ViewBag.Title = &amp;quot;Index&amp;quot;;&#xD;Line 49:   &#xD;Line 50:               &#xD;Line 51:               #line default&#xD;Line 52:               #line hidden&#xD;Line 53:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 35, 49, true);&#xD;Line 54:   &#xD;Line 55:   WriteLiteral(&amp;quot;\r\n&amp;lt;h2&amp;gt;Users Log In&amp;lt;/h2&amp;gt;\r\n&amp;lt;p&amp;gt;Username:&amp;lt;/p&amp;gt;\r\n&amp;lt;input&amp;quot;);&#xD;Line 56:   &#xD;Line 57:   EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 35, 49, true);&#xD;Line 58:   &#xD;Line 59:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 84, 17, true);&#xD;Line 60:   &#xD;Line 61:   WriteLiteral(&amp;quot; value=\&amp;quot;username\&amp;quot;&amp;quot;);&#xD;Line 62:   &#xD;Line 63:   EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 84, 17, true);&#xD;Line 64:   &#xD;Line 65:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 101, 12, true);&#xD;Line 66:   &#xD;Line 67:   WriteLiteral(&amp;quot; type=\&amp;quot;text\&amp;quot;&amp;quot;);&#xD;Line 68:   &#xD;Line 69:   EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 101, 12, true);&#xD;Line 70:   &#xD;Line 71:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 113, 28, true);&#xD;Line 72:   &#xD;Line 73:   WriteLiteral(&amp;quot;/&amp;gt;\r\n&amp;lt;p&amp;gt;Password:&amp;lt;/p&amp;gt;\r\n&amp;lt;input&amp;quot;);&#xD;Line 74:   &#xD;Line 75:   EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 113, 28, true);&#xD;Line 76:   &#xD;Line 77:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 141, 16, true);&#xD;Line 78:   &#xD;Line 79:   WriteLiteral(&amp;quot; type=\&amp;quot;password\&amp;quot;&amp;quot;);&#xD;Line 80:   &#xD;Line 81:   EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 141, 16, true);&#xD;Line 82:   &#xD;Line 83:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 157, 167, true);&#xD;Line 84:   &#xD;Line 85:   WriteLiteral(&amp;quot; /&amp;gt;\r\n&amp;lt;script&amp;gt;\r\n    function LogIn() {\r\n        var username = $(\&amp;quot;#username\&amp;quot;).val(&amp;quot; +&#xD;Line 86:   &amp;quot;);\r\n        var password = $(\&amp;quot;#password\&amp;quot;).val();\r\n        $.ajax({\r\n            &amp;quot; +&#xD;Line 87:   &amp;quot;url: \&amp;#39;&amp;quot;);&#xD;Line 88:   &#xD;Line 89:   EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 157, 167, true);&#xD;Line 90:   &#xD;Line 91:   BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 325, 71, false);&#xD;Line 92:   &#xD;Line 93:               &#xD;Line 94:               #line 14 &amp;quot;C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\Views\UsersLogIn\Index.cshtml&amp;quot;&#xD;Line 95:                Write(Url.Action(&amp;quot;LogIn&amp;quot;,&amp;quot;UsersLogIn&amp;quot;, new { user = username, pw = password}));&#xD;Line 96:   &#xD;Line 97:               &#xD;Line 98:               #line default&#xD;Line 99:               #line hidden&#xD;Line 100:  EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 325, 71, false);&#xD;Line 101:  &#xD;Line 102:  BeginContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 396, 33, true);&#xD;Line 103:  &#xD;Line 104:  WriteLiteral(&amp;quot;\&amp;#39;\r\n        });\r\n   }\r\n&amp;lt;/script&amp;gt;\r\n&amp;quot;);&#xD;Line 105:  &#xD;Line 106:  EndContext(&amp;quot;~/Views/UsersLogIn/Index.cshtml&amp;quot;, 396, 33, true);&#xD;Line 107:  &#xD;Line 108:          }&#xD;Line 109:      }&#xD;Line 110:  }&#xD;Line 111:  &lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &lt;script type=&quot;text/javascript&quot;&gt;&#xD;&#xA;    function OnToggleTOCLevel1(level2ID)&#xD;&#xA;    {&#xD;&#xA;      var elemLevel2 = document.getElementById(level2ID);&#xD;&#xA;      if (elemLevel2.style.display == 'none')&#xD;&#xA;      {&#xD;&#xA;        elemLevel2.style.display = '';&#xD;&#xA;      }&#xD;&#xA;      else {&#xD;&#xA;        elemLevel2.style.display = 'none';&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;    &lt;/script&gt;&#xD;&#xA;                          &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;    &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&#xD;&#xA;">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:es-ES,es;q=0.8&#xD;&#xA;HTTP_AUTHORIZATION:Negotiate TlRMTVNTUAADAAAAGAAYAHYAAAAMAQwBjgAAAAAAAABYAAAADAAMAFgAAAASABIAZAAAABAAEACaAQAAFYKI4gYBsR0AAAAPA4QbW/kcq2k4cA/0u5NI62MAYQByAGwAbwBzAEMAQQBSAEwATwBTAC0AUABDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIyAp7tTUqvYhyt1ckAzoVIBAQAAAAAAACvmHCp2iNEBDO7uLHK2VRcAAAAAAgASAEMAQQBSAEwATwBTAC0AUABDAAEAEgBDAEEAUgBMAE8AUwAtAFAAQwAEABIAQwBhAHIAbABvAHMALQBQAEMAAwASAEMAYQByAGwAbwBzAC0AUABDAAcACAAr5hwqdojRAQYABAACAAAACAAwADAAAAAAAAAAAAAAAAAgAACt9rObuFWb9HcfcmAFmv5id1ahMhY9sxBnpdtY+2K+4QoAEAAAAAAAAAAAAAAAAAAAAAAACQAcAEgAVABUAFAALwBsAG8AYwBhAGwAaABvAHMAdAAAAAAAAAAAAAAAAACT6k2Vdp0kal1/xXI3n0X1&#xD;&#xA;HTTP_COOKIE:ckwqy38obnn=MX; 894h35bnklpsqn=MX; 83bnmklsae328ynn=34598; 83bronnmklsae328ynn=63084; red83bronnmklsae328ynn=65540; gretg54634eg43=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; transproncntunt=63889; transpronchnnl=11584; uyru345hr9lks1580=72937808516435331450733546; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; __RequestVerificationToken=vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1&#xD;&#xA;HTTP_HOST:localhost:44151&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch&#xD;&#xA;Accept-Language: es-ES,es;q=0.8&#xD;&#xA;Authorization: Negotiate TlRMTVNTUAADAAAAGAAYAHYAAAAMAQwBjgAAAAAAAABYAAAADAAMAFgAAAASABIAZAAAABAAEACaAQAAFYKI4gYBsR0AAAAPA4QbW/kcq2k4cA/0u5NI62MAYQByAGwAbwBzAEMAQQBSAEwATwBTAC0AUABDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIyAp7tTUqvYhyt1ckAzoVIBAQAAAAAAACvmHCp2iNEBDO7uLHK2VRcAAAAAAgASAEMAQQBSAEwATwBTAC0AUABDAAEAEgBDAEEAUgBMAE8AUwAtAFAAQwAEABIAQwBhAHIAbABvAHMALQBQAEMAAwASAEMAYQByAGwAbwBzAC0AUABDAAcACAAr5hwqdojRAQYABAACAAAACAAwADAAAAAAAAAAAAAAAAAgAACt9rObuFWb9HcfcmAFmv5id1ahMhY9sxBnpdtY+2K+4QoAEAAAAAAAAAAAAAAAAAAAAAAACQAcAEgAVABUAFAALwBsAG8AYwBhAGwAaABvAHMAdAAAAAAAAAAAAAAAAACT6k2Vdp0kal1/xXI3n0X1&#xD;&#xA;Cookie: ckwqy38obnn=MX; 894h35bnklpsqn=MX; 83bnmklsae328ynn=34598; 83bronnmklsae328ynn=63084; red83bronnmklsae328ynn=65540; gretg54634eg43=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; transproncntunt=63889; transpronchnnl=11584; uyru345hr9lks1580=72937808516435331450733546; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; __RequestVerificationToken=vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1&#xD;&#xA;Host: localhost:44151&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Negotiate" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="Carlos-PC\Carlos" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="Carlos-PC\carlos" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="Carlos-PC\Carlos" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/UsersLogIn/Index" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\UsersLogIn\Index" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="50970" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/UsersLogIn/Index" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="44151" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/UsersLogIn/Index" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="es-ES,es;q=0.8" />
+    </item>
+    <item name="HTTP_AUTHORIZATION">
+      <value string="Negotiate TlRMTVNTUAADAAAAGAAYAHYAAAAMAQwBjgAAAAAAAABYAAAADAAMAFgAAAASABIAZAAAABAAEACaAQAAFYKI4gYBsR0AAAAPA4QbW/kcq2k4cA/0u5NI62MAYQByAGwAbwBzAEMAQQBSAEwATwBTAC0AUABDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIyAp7tTUqvYhyt1ckAzoVIBAQAAAAAAACvmHCp2iNEBDO7uLHK2VRcAAAAAAgASAEMAQQBSAEwATwBTAC0AUABDAAEAEgBDAEEAUgBMAE8AUwAtAFAAQwAEABIAQwBhAHIAbABvAHMALQBQAEMAAwASAEMAYQByAGwAbwBzAC0AUABDAAcACAAr5hwqdojRAQYABAACAAAACAAwADAAAAAAAAAAAAAAAAAgAACt9rObuFWb9HcfcmAFmv5id1ahMhY9sxBnpdtY+2K+4QoAEAAAAAAAAAAAAAAAAAAAAAAACQAcAEgAVABUAFAALwBsAG8AYwBhAGwAaABvAHMAdAAAAAAAAAAAAAAAAACT6k2Vdp0kal1/xXI3n0X1" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="ckwqy38obnn=MX; 894h35bnklpsqn=MX; 83bnmklsae328ynn=34598; 83bronnmklsae328ynn=63084; red83bronnmklsae328ynn=65540; gretg54634eg43=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; transproncntunt=63889; transpronchnnl=11584; uyru345hr9lks1580=72937808516435331450733546; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; __RequestVerificationToken=vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:44151" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="ckwqy38obnn">
+      <value string="MX" />
+    </item>
+    <item name="894h35bnklpsqn">
+      <value string="MX" />
+    </item>
+    <item name="83bnmklsae328ynn">
+      <value string="34598" />
+    </item>
+    <item name="83bronnmklsae328ynn">
+      <value string="63084" />
+    </item>
+    <item name="red83bronnmklsae328ynn">
+      <value string="65540" />
+    </item>
+    <item name="gretg54634eg43">
+      <value string="10742" />
+    </item>
+    <item name="gre67fsdsfg456">
+      <value string="11581" />
+    </item>
+    <item name="redgre67fsdsfg456">
+      <value string="11603" />
+    </item>
+    <item name="transproncntunt">
+      <value string="63889" />
+    </item>
+    <item name="transpronchnnl">
+      <value string="11584" />
+    </item>
+    <item name="uyru345hr9lks1580">
+      <value string="72937808516435331450733546" />
+    </item>
+    <item name="ctxjs1420m06d05nn">
+      <value string="7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1" />
+    </item>
+  </cookies>
+</error>

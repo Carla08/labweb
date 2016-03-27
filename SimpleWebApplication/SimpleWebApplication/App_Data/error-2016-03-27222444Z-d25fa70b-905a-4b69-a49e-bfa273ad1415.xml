@@ -1,0 +1,201 @@
+﻿<error errorId="d25fa70b-905a-4b69-a49e-bfa273ad1415" host="CARLOS-PC" type="System.Web.HttpException" message="A public action method 'UserLogIn' was not found on controller 'SimpleWebApplication.Controllers.UsersLogInController'." source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): A public action method 'UserLogIn' was not found on controller 'SimpleWebApplication.Controllers.UsersLogInController'.&#xD;&#xA;   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__15(IAsyncResult asyncResult, Controller controller)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="Carlos-PC\Carlos" time="2016-03-27T22:24:44.1136611Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:es-ES,es;q=0.8&#xD;&#xA;HTTP_COOKIE:ckwqy38obnn=MX; 894h35bnklpsqn=MX; 83bnmklsae328ynn=34598; 83bronnmklsae328ynn=63084; red83bronnmklsae328ynn=65540; gretg54634eg43=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; transproncntunt=63889; transpronchnnl=11584; uyru345hr9lks1580=72937808516435331450733546; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; __RequestVerificationToken=vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1&#xD;&#xA;HTTP_HOST:localhost:44151&#xD;&#xA;HTTP_REFERER:http://localhost:44151/UsersLogIn/Index&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch&#xD;&#xA;Accept-Language: es-ES,es;q=0.8&#xD;&#xA;Cookie: ckwqy38obnn=MX; 894h35bnklpsqn=MX; 83bnmklsae328ynn=34598; 83bronnmklsae328ynn=63084; red83bronnmklsae328ynn=65540; gretg54634eg43=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; transproncntunt=63889; transpronchnnl=11584; uyru345hr9lks1580=72937808516435331450733546; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; __RequestVerificationToken=vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1&#xD;&#xA;Host: localhost:44151&#xD;&#xA;Referer: http://localhost:44151/UsersLogIn/Index&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Negotiate" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="Carlos-PC\Carlos" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="Carlos-PC\carlos" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="Carlos-PC\Carlos" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/UsersLogIn/UserLogIn/LogIn" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\Carlos\Desktop\LabWeb\SimpleWebApplication\SimpleWebApplication\UsersLogIn\UserLogIn\LogIn" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="51138" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/UsersLogIn/UserLogIn/LogIn" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="44151" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/UsersLogIn/UserLogIn/LogIn" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="es-ES,es;q=0.8" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="ckwqy38obnn=MX; 894h35bnklpsqn=MX; 83bnmklsae328ynn=34598; 83bronnmklsae328ynn=63084; red83bronnmklsae328ynn=65540; gretg54634eg43=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; transproncntunt=63889; transpronchnnl=11584; uyru345hr9lks1580=72937808516435331450733546; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; __RequestVerificationToken=vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:44151" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:44151/UsersLogIn/Index" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="ckwqy38obnn">
+      <value string="MX" />
+    </item>
+    <item name="894h35bnklpsqn">
+      <value string="MX" />
+    </item>
+    <item name="83bnmklsae328ynn">
+      <value string="34598" />
+    </item>
+    <item name="83bronnmklsae328ynn">
+      <value string="63084" />
+    </item>
+    <item name="red83bronnmklsae328ynn">
+      <value string="65540" />
+    </item>
+    <item name="gretg54634eg43">
+      <value string="10742" />
+    </item>
+    <item name="gre67fsdsfg456">
+      <value string="11581" />
+    </item>
+    <item name="redgre67fsdsfg456">
+      <value string="11603" />
+    </item>
+    <item name="transproncntunt">
+      <value string="63889" />
+    </item>
+    <item name="transpronchnnl">
+      <value string="11584" />
+    </item>
+    <item name="uyru345hr9lks1580">
+      <value string="72937808516435331450733546" />
+    </item>
+    <item name="ctxjs1420m06d05nn">
+      <value string="7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="vGmz4bgx97KgK5ROH-FvLK_rtMjDGeknolaQeQLO7ydl2c2aJrceis0qSVPmYaaPf3hzLCrBctvH2Yw0kkQOR-TzNzPB9m2GDcAIKTmOtIM1" />
+    </item>
+  </cookies>
+</error>
